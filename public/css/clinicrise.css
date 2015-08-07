@@ -1,0 +1,134 @@
+
+/*
+Custom search query
+*/
+
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+
+
+/*
+charts pie /other
+
+*/
+.chart-container {
+    box-sizing: border-box;
+/*
+    width: 650px;
+*/
+    width: 100%;
+    height: 450px;
+    padding: 20px 15px 15px 15px;
+    margin: 15px auto 30px auto;
+    border: 1px solid #ddd;
+    background: #fff;
+    background: linear-gradient(#f6f6f6 0, #fff 50px);
+    background: -o-linear-gradient(#f6f6f6 0, #fff 50px);
+    background: -ms-linear-gradient(#f6f6f6 0, #fff 50px);
+    background: -moz-linear-gradient(#f6f6f6 0, #fff 50px);
+    background: -webkit-linear-gradient(#f6f6f6 0, #fff 50px);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    -o-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    -ms-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.chart-placeholder {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+/* 
+ * for notifications
+ */
+
+.notificationabove {
+    position:fixed;
+    top: 20;
+    left: 20;
+    width: 80%;
+    z-index:9999;
+}
+
+.onhovered:hover {
+background-color:darkgrey;
+color:black;
+}
+
+.search-option-pats {
+    color: black;
+}
+
+.overhovered.active {
+    color: black;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+
+.hide-calendar .ui-datepicker-calendar{display:none}
+.hide-arrow-next .ui-datepicker-next{display:none}
+.hide-arrow-prev .ui-datepicker-prev{display:none}
+.hide-month .ui-datepicker-month{display:none}
+
+#quickaddref{
+	margin: 0 auto;
+	display: block;
+}
+
+.findusgeneralli .lifgeneral a{
+	font-weight: 600;
+}
+
+#searchclinic .twitter-typeahead, #searchpats .twitter-typeahead {
+	width: 100%;
+}
+
+.patient-row-colored {
+    background-color: #f9f9f9;
+}
+
+.patient-row-no-color {
+    background-color: none;
+}
